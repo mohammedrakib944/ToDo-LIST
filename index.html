@@ -1,0 +1,121 @@
+<!-- CODE EXPLAINED CHANNEL -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- META VIIEWPORT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <!-- Title -->
+    <title>ToDo List | Manage Daily Tasks | Easy To Use</title>
+    <!-- description -->
+    <meta
+      name="description"
+      content="Best website for To-Do list | Add notes, Manage your daily tasks | Easy to use | Awesome Interface."
+    />
+    <!-- keywords -->
+    <meta
+      name="keywords"
+      content="TODO LIST, TODO, NOTE, ADD TASKS, GOOGLE KEEP, ONENOTE, MANAGE TASKS, GOOD NOTES, ONENOTE ONLINE, ONLINE NOTE, SIMPLENOTE, MICROSOFT TODO, STICKY NOTE"
+    />
+    <!-- meta author -->
+    <meta name="author" content="Mohammad Rakib" />
+
+    <!-- all links -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Frijole&family=Indie+Flower&family=Kalam&family=Open+Sans&family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/clock.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/Responsive.css" />
+  </head>
+  <body onload="realtimeClock()">
+    <!-- menu area -->
+    <div class="menuArea">
+      <div class="justForMenuButton">
+        <button class="Menubtn"><i class="fas fa-bars"></i></button>
+      </div>
+
+      <div class="menu">
+        <button class="menuButton">
+          <i class="fas fa-times de" job="delete"></i>
+        </button>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./pages/about.html">About</a></li>
+          <li><a href="./pages/contact.html">Contact</a></li>
+          <li><a href="./pages/privacy.html">Privacy Policy</a></li>
+          <li><a href="./pages/trams.html">Trams and Conditions</a></li></ul
+        >
+      </div>
+    </div>
+    <div class="container">
+      <!-- left section -->
+      <div class="header">
+        <!-- clock -->
+        <div class="main_container">
+          <div class="widghets">
+            <div id="clock"></div>
+            <div id="date"></div>
+          </div>
+          <br /><br />
+          <div class="tottalLeft">
+            <h2
+              ><i class="fas fa-tasks"></i>Total :
+              <span class="totalTasks"></span
+            ></h2>
+            <hr />
+            <h2
+              ><i class="fas fa-check-double"></i>Done :
+              <span class="DoneTasks"></span
+            ></h2>
+
+            <hr />
+            <h2
+              ><i class="fas fa-list-ul"></i>Left :
+              <span class="leftTasks"></span
+            ></h2>
+          </div>
+        </div>
+        <!-- endl clock -->
+      </div>
+      <!-- right section -->
+      <div class="right_section">
+        <div class="content">
+          <h4 class="plans">ALL TASKS</h4>
+          <div class="clear" title="Free Space">
+            <h4>Clear All</h4><i class="fas fa-sync-alt"></i>
+          </div>
+          <ul id="list"> </ul>
+        </div>
+        <div class="add-to-do">
+          <!-- <i class="fa fa-plus-circle"></i> -->
+          <input
+            type="text"
+            id="input"
+            placeholder="Add a task"
+            title="Press enter to add"
+            autofocus
+          />
+        </div>
+      </div>
+      <div class="footer">
+        <!-- <div class="addvartisement">
+          <h4>160 X 600</h4>
+        </div> -->
+      </div>
+    </div>
+    <script src="./js/menu.js"></script>
+    <script src="./js/confetti.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/clock.js"></script>
+  </body>
+</html>

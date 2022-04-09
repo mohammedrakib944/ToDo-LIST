@@ -1,0 +1,31 @@
+@media all and (max-width: 1200px) {
+  .footer {
+    flex: 2;
+  }
+}
+@media all and (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+  }
+  .menu {
+    width: 100%;
+    border-bottom-right-radius: 40%;
+  }
+  .header {
+    min-height: unset;
+    margin-bottom: 50px;
+  }
+  .right_section {
+    min-width: 300px;
+    margin-bottom: 50px;
+    border-radius: 22px;
+    min-height: unset;
+  }
+  .item {
+    border-radius: 12px;
+    border-left: 0px;
+  }
+  .add-to-do {
+    margin-bottom: 30px;
+  }
+}

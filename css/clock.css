@@ -1,0 +1,17 @@
+#clock {
+  width: 250px;
+  font-size: 36px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  color: #8b8ec7;
+  border-radius: 21px;
+}
+
+/* ------------ 
+font-family: 'Bubblegum Sans', cursive;
+font-family: 'Frijole', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Patrick Hand', cursive;
+------------ */
